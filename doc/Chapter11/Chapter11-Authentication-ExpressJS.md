@@ -61,7 +61,7 @@ app.get('/logout', function (req, res) {
 });
 ```
 
-**localhost:3000/content**, obtiene los contenidos protegidos. La función de autenticación se pasa como segundo parámetro del middleware antes de que proceda a enviar el contenido al usuario. Si la función de autenticación determina que el usuario no es valido, no ejecuta la tercera función para enviar el contenido. 
+**localhost:3000/content**, obtiene los contenidos protegidos. La función de autenticación se pasa como segundo parámetro del middleware antes de que proceda a enviar el contenido al usuario. Si la función de autenticación determina que el usuario no es válido, no ejecuta la tercera función para enviar el contenido. 
 
 ```javascript
 // Get content endpoint
