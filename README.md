@@ -1,7 +1,18 @@
 # **Práctica: Estudiar Cookies y Sessions en ExpressJS-**
 
 ## Intrucciones
-
+* Instalar dependencias
+```bash
+npm install 
+```
+* Ejecutar ejemplo autenticación
+```bash
+gulp authentication
+```
+* Ejecutar ejemplo cookie
+```bash
+gulp cookie
+```
 
 ## Enlaces
 
